@@ -42,7 +42,7 @@ html, body, .formPage {
   justify-content: center;
   align-items: center;
   gap: .8rem;
-  background-color: hsla(0, 100%, 83%, 0.5);
+  background-color: hsla(0, 100%, 83%, 0.55);
   padding: 0 1rem;
 }
 
@@ -151,6 +151,7 @@ button:active {
 
 .registration>p {
   margin-left: 40px;
+  font-weight: bold;
 }
 
 a {

@@ -9,5 +9,60 @@
 </head>
 <body>
 
+  <div class="formPage">
+    <div class="sidebar">
+      <div class="logo">
+        <img src="./images/ethiopia-line-emblem-1.png" alt="Emblem of Ethiopia">
+        <p>Ethiopia</p>
+      </div>
+      <p>Photo by <a href="https://unsplash.com/@vr2ysl" target="_blank">Sammy Wong</a> on Unsplash</p>
+    </div>
+    <div class="form">
+      <div class="info">
+        <p>Join us in exploring the country of Ethiopia, with its ancient treasures, delicious foods, and friendly faces!</p>
+        <p>Excited to have the experience of a lifetime? Then sign up today!</p>
+        <p>You <em>know</em> you want to!</p>
+      </div>
+      <div class="registration">
+        <form action="#" method="post">
+          <div class="input">
+            <fieldset class="name">
+              <div class="first_name_div">
+                <label for="first_name">*First Name</label>
+                <input type="text" id="first_name" name="first_name" autocomplete="off" required>
+              </div>
+              <div class="last_name_div">
+                <label for="last_name">*Last Name</label>
+                <input type="text" id="last_name" name="last_name" autocomplete="off" required>
+              </div>
+            </fieldset>
+            <fieldset class="contact">
+              <div class="email_div">
+                <label for="email">*Email</label>
+                <input type="text" id="email" name="email" pattern="^[\w\-\.]+@([\w\-]+\.)+[\w\-]{2,4}$" title="Example: ethiopia123@gmail.com" autocomplete="off" required>
+              </div>
+              <div class="phone_number_div">
+                <label for="phone_number">Phone Number</label>
+                <input type="text" id="phone_number" name="phone_number" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s]?\d{3}[\s]?\d{4}$" title="10 digit number with space separation if needed. Add country codes like this: +1 123 456 7890" placeholder="123 456 7890" autocomplete="off" >
+              </div>
+            </fieldset>
+            <fieldset class="password">
+              <div class="password_div">
+                <label for="password">*Password</label>
+                <input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$\^!%*?&])[A-Za-z\d@#$\^!%*?&]{8,16}$" title="8-16 characters, at least one uppercase letter, one lowercase letter, one number and one special character" autocomplete="off" required>
+              </div>
+              <div class="password_confirmation_div">
+                <label for="password_confirmation">*Confirm Password</label>
+                <input type="password" id="password_confirmation" name="password_confirmation" autocomplete="off" required>
+              </div>
+            </fieldset>
+          </div>
+          <button type="submit" class="createAccount">Create Account</button>
+        </form>        
+        <p>Already have an account? <a href="#">Log In!</a></p>
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
